@@ -6,7 +6,7 @@ const ListCard = () => {
     return (
         <div className="bg-blue-dark rounded-[3.5rem] p-14 flex justify-between mt-16">
             <div className="flex-1 relative">
-                <Image src="document-1.svg" alt="document" fill />
+                <Image src="/images/bot.png" alt="document" fill />
             </div>
             <div className="flex-1 flex flex-col gap-10">
                 <h1 className="font-heading font-extrabold text-6xl">

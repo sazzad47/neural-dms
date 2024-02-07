@@ -11,9 +11,9 @@ const HomeUI = () => {
         <div className="min-h-screen bg-default p-10">
             <Header />
             <Hero />
-            <EmailCard />
-            <ListCard />
             <BlockCard />
+            <ListCard />
+            <EmailCard />
             <Footer />
         </div>
     );

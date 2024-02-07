@@ -2,7 +2,7 @@ import React from 'react';
 
 const EmailCard = () => {
     return (
-        <div className="bg-purple-light rounded-[3.5rem] p-14 flex flex-col gap-7 items-center">
+        <div className="mt-16 bg-purple-light rounded-[3.5rem] p-14 flex flex-col gap-7 items-center">
             <h1 className="text-default font-heading font-extrabold text-6xl text-center">
                 Discover Premium Features <br />
                 <span className="text-purple-dark">Today!</span>
