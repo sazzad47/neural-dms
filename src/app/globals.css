@@ -53,3 +53,71 @@
     @apply outline-none appearance-none rounded-none;
   }
 }
+
+.price-card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.price-card-popular {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.btn-default {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: white;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.btn-default:hover {
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.btn-default:hover:after {
+  opacity: .5;
+}
+
+.btn-default:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.btn-default:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .btn-default {
+    padding: 14px 22px;
+    width: 176px;
+  }
+}
