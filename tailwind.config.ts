@@ -10,25 +10,28 @@ const config: Config = {
     theme: {
         extend: {
             colors: {
-                default: '#000000',
+                "Base-White": '#FFF',
                 standard: '#353535',
                 primary: '#2E6A99',
-                secondary: '#FFFFFF',
+                secondary: '#4A5568',
                 active: '#FFEB92',
-                "purple-light": "#CFCEFF",
-                "purple-dark": "#5F31C1",
-                "black-80": "rgba(0, 0, 0, 0.80)",
-                "white-80": "rgba(255, 255, 255, 0.80)",
-                "grey-dark": "#353535",
-                "blue-light": "#BFE8FF",
+                "--Gray-gray-900": "#1A202C",
+                "--Gray-gray-700": "#4A5568",
+                "Gray/gray-50": "#FAFAFA",
+                "--Shade-light-background": "#F9F9FF",
+                "Brand/Primary-bg": "#57007B",
                 "blue-dark": "#004973",
             },
         },
         fontFamily: {
             logo: ['"Montserrat Alternates"', 'sans-serif'],
-            text: ['Lato', 'sans-serif'],
+            text: ['Inter', 'sans-serif'],
             heading: ['Raleway', 'sans-serif'],
         },
+        boxShadow: {
+            'nav': '0px 4px 40px 0px rgba(0, 0, 0, 0.10)',
+        }
+    
     },
     plugins: [],
 };

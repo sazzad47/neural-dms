@@ -1,20 +1,26 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 const Hero = () => {
     return (
-        <div className="flex flex-col items-center justify-center gap-8 min-h-[70vh]">
-            <h1 className="font-heading font-extrabold text-6xl">Unlock Document Insights with Ease</h1>
-            <p className="font-normal text-xl text-center w-1/2">
-                Elevate your document management. Upload documents, get insights, and extract valuable information
-                effortlessly.
-            </p>
-            <Link href="/pricing">
-                <button className="bg-active text-default rounded-full px-12 py-4">Explore Plans</button>
-            </Link>
-            <h3 className="font-heading font-bold text-2xl text-center">
-                Subscribe now for advanced features and document intelligence.
-            </h3>
+        <div className="container flex min-h-[70vh]">
+            <div className="flex-1 min-h-full flex flex-col justify-center">
+                <h1 className="font-light text-5xl -text--Gray-gray-900">
+                    Great <span className="title-primary font-bold"> Product </span> is <br />
+                    <span className="font-bold"> built by great </span>{' '}
+                    <span className="title-secondary font-bold"> teams </span>
+                </h1>
+                <p className="text---Gray-gray-700 font-normal text-xl mt-7 mb-16">
+                    We help build and manage a team of world-class developers to bring your vision to life
+                </p>
+                <Link href="/pricing">
+                    <button className="btn-secondary"> Let’s get started! </button>
+                </Link>
+            </div>
+            <div className="flex-1 relative">
+                <Image src="/images/hero-image.jpg" alt='mojeeb' fill />
+            </div>
         </div>
     );
 };

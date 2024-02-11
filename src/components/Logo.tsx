@@ -7,7 +7,7 @@ const Logo = () => {
         <Link href="/">
             <div className="flex items-center gap-5">
                 <Image src="logo.svg" alt="logo" height={40} width={35} />
-                <div className="font-logo font-bold text-3xl text-white">Neural Dms</div>
+                <div className="font-logo font-bold text-3xl text-secondary">Neural Dms</div>
             </div>
         </Link>
     );
